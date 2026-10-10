@@ -1,0 +1,60 @@
+import type { CategoryItem } from '../types';
+
+export const CATEGORIES: CategoryItem[] = [
+  {
+    id: 'tech',
+    name: 'Tech',
+    count: 48,
+    iconName: 'Cpu',
+    description: 'Dev sprints, tech talks, AI meetups & hardware showcases',
+    color: '#8B5CF6',
+  },
+  {
+    id: 'cultural',
+    name: 'Cultural',
+    count: 36,
+    iconName: 'Music',
+    description: 'Concerts, theatrical productions, dance battles & open mics',
+    color: '#EC4899',
+  },
+  {
+    id: 'workshops',
+    name: 'Workshops',
+    count: 29,
+    iconName: 'Terminal',
+    description: 'Hands-on masterclasses, industry bootcamps & certification clinics',
+    color: '#06B6D4',
+  },
+  {
+    id: 'sports',
+    name: 'Sports',
+    count: 22,
+    iconName: 'Trophy',
+    description: 'Tournament leagues, athletics championships & e-sports battles',
+    color: '#F97316',
+  },
+  {
+    id: 'hackathons',
+    name: 'Hackathons',
+    count: 14,
+    iconName: 'Flame',
+    description: 'All-night coding marathons, rapid prototyping & seed pitches',
+    color: '#C4FF3D',
+  },
+  {
+    id: 'competitions',
+    name: 'Competitions',
+    count: 19,
+    iconName: 'Zap',
+    description: 'Case studies, algorithmic contests, debate leagues & quizzes',
+    color: '#A855F7',
+  },
+  {
+    id: 'social',
+    name: 'Social',
+    count: 31,
+    iconName: 'Users',
+    description: 'Club mixers, campus campouts, networking galas & freshmen welcomes',
+    color: '#10B981',
+  },
+];
