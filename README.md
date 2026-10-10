@@ -284,33 +284,22 @@ live database.
 
 ## Demo Accounts
 
-These dedicated demonstration accounts were provided for evaluation.
-They are included here for recruiter testing and are not personal
-accounts.
+Use these dedicated test accounts for recruitment evaluation.
 
-  ----------------------------------------------------------------------------------------
-  Role              Display name      Email                           Password
-  ----------------- ----------------- ------------------------------- --------------------
-  Organizer         `TestOrganiser`   `testorganiser@vyra-test.com`   `VyraOrg#2026Test`
+| Role | Display Name | Email | Password |
+|---|---|---|---|
+| Organizer | `TestOrganiser` | `testorganiser@vyra-test.com` | `VyraOrg#2026Test` |
+| Student | `TestUser1` | `testuser1@vyra-test.com` | `VyraUser1#2026` |
+| Student | `TestUser2` | `testuser2@vyra-test.com` | `VyraUser2#2026` |
 
-  Student           `TestUser1`       `testuser1@vyra-test.com`       `VyraUser1#2026`
-
-  Student           `TestUser2`       `testuser2@vyra-test.com`       `VyraUser2#2026`
-  ----------------------------------------------------------------------------------------
-
-**Please note:** Because this repository is public, these credentials
-are public too. Use them only for dedicated test accounts with no access
-to sensitive information or privileged infrastructure. Rotate or disable
-them if they are no longer intended for public evaluation.
+**Security note:** This repository is public, so these credentials are publicly visible. Use them only for dedicated demo accounts with no sensitive data or privileged access. Rotate or disable them when they are no longer needed for evaluation.
 
 Suggested evaluation flow:
 
-1.  Open the [live demo](https://vyra-campus-platform.vercel.app/).
-2.  Sign in with a student account to explore event discovery, event
-    details, registration, saved events, and the student dashboard.
-3.  Sign in with the organizer account to inspect organizer routes,
-    event management, attendee lists, and analytics.
-4.  Test that student accounts cannot access organizer-only actions.
+1. Open the [live demo](https://vyra-campus-platform.vercel.app/).
+2. Sign in with a student account to explore event discovery, event details, registration, saved events, and the student dashboard.
+3. Sign in with the organizer account to inspect organizer routes, event management, attendee lists, and analytics.
+4. Confirm that student accounts cannot access organizer-only actions.
 
 ------------------------------------------------------------------------
 
