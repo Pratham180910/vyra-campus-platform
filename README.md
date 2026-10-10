@@ -152,15 +152,15 @@ JavaScript client to communicate with Supabase. The current project does
 not use a separate Express or Node.js API server for its primary
 application data flow.
 
-``` mermaid
+```mermaid
 flowchart TD
-    A[Browser: React + TypeScript] --> B[Pages, Components and Services]
-    B --> C[Supabase JavaScript Client]
-    C --> D[Supabase Auth]
-    C --> E[Supabase Data API]
-    E --> F[PostgreSQL RLS Policies]
-    F --> G[(PostgreSQL Database)]
-    H[Vercel] --> A
+    A["Browser: React and TypeScript"] --> B["Pages, Components and Services"]
+    B --> C["Supabase JavaScript Client"]
+    C --> D["Supabase Authentication"]
+    C --> E["Supabase Data API"]
+    E --> F["PostgreSQL RLS Policies"]
+    F --> G[("PostgreSQL Database")]
+    H["Vercel Hosting"] --> A
 ```
 
 Authorization must be enforced by database policies, not only by hiding
